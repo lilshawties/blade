@@ -47,7 +47,7 @@ const serverCount = client.guilds.cache.size;
   setTimeout(() => {
     console.log('\x1b[32m%s\x1b[0m', `|    🎯 Activity sucessfully set!`);
     client.user.setPresence({
-      activities: [{ name: `.𝘣𝘰𝘮𝘪𝜗𝜚˚⋆`, type: ActivityType.Playing }],
+      activities: [{ name: `.𝘣𝘰𝘮𝘪𝜗𝜚˚⋆`, type: ActivityType.Streaming }],
       status: 'do not disturb',
     });
   }, 2000); 
